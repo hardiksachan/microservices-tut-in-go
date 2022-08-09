@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 	"log"
-	"microservices-tutorial/data"
-	"microservices-tutorial/handlers"
 	"net/http"
 	"os"
 	"os/signal"
+	"product-api/data"
+	"product-api/handlers"
 	"time"
 
 	"github.com/go-openapi/runtime/middleware"

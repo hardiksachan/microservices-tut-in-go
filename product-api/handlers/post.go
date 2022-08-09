@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"microservices-tutorial/data"
 	"net/http"
+	"product-api/data"
 )
 
 // swagger:route POST /products products createProduct

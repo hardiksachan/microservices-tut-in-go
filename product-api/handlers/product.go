@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"github.com/gorilla/mux"
 	"log"
-	"microservices-tutorial/data"
 	"net/http"
+	"product-api/data"
 	"strconv"
 )
 

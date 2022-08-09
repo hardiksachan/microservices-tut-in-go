@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"context"
-	"microservices-tutorial/data"
 	"net/http"
+	"product-api/data"
 )
 
 // MiddlewareValidateProduct validates the product in the request and calls next if ok
